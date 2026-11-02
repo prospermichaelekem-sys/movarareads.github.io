@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="MOVARA READS — Read. Learn. Grow. Discover practical eBooks and useful knowledge.">
+<title>MOVARA READS | Read. Learn. Grow.</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="top">Read. Learn. Grow. <span>Digital reading for everyone, everywhere</span></div>
+<header>
+<a class="brand" href="#"><img src="assets/movara-mark.svg" alt=""><span><b>MOVARA</b><small>R E A D S</small></span></a>
+<button class="menu" onclick="document.querySelector('nav').classList.toggle('open')" aria-label="Menu">☰</button>
+<nav><a href="#home">Home</a><a href="#books">Books</a><a href="#free">Free Resources</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+<a class="cart" href="#books">Cart <span id="count">0</span></a>
+</header>
+<main>
+<section class="hero" id="home">
+<div class="hero-text"><p class="eyebrow">WELCOME TO MOVARA READS</p><h1>Read. <em>Learn.</em> Grow.</h1><p>Discover inspiring eBooks, practical guides and knowledge to help you move forward.</p><div class="buttons"><a class="btn gold" href="#books">▣ Explore Books →</a><a class="btn line" href="#free">Get a Free eBook</a></div></div>
+<div class="hero-visual"><div class="reader"><div class="sun"></div><div class="pages">M</div><b>MOVARA<br><small>READS</small></b></div><div class="floatbook">KNOWLEDGE<br>CHANGES<br>EVERYTHING</div></div>
+</section>
+<section class="benefits"><div>✓ <b>Secure checkout</b><small>Shop with confidence</small></div><div>↯ <b>Instant download</b><small>Get your book after purchase</small></div><div>◎ <b>Worldwide access</b><small>Read anywhere, anytime</small></div><div>♡ <b>Reader support</b><small>We're here to help</small></div></section>
+<section class="catalog" id="books"><div class="heading"><div><p class="eyebrow">THE MOVARA LIBRARY</p><h2>Featured Books</h2></div><span>Explore ideas. Build your future.</span></div>
+<div class="filters"><button class="active" data-filter="all">All</button><button data-filter="business">Business</button><button data-filter="growth">Personal Growth</button><button data-filter="relationships">Relationships</button><button data-filter="technology">Technology</button><button data-filter="africa">African Success</button></div>
+<div class="grid">
+<article data-cat="business"><div class="cover navy"><small>MOVARA READS</small><strong>THE SMALL CAPITAL BUSINESS BLUEPRINT</strong><span>Start and grow with little money</span></div><h3>The Small Capital Business Blueprint</h3><p>A practical guide to starting a business with little capital.</p><div class="buy"><b>$9.99</b><a href="ADD_YOUR_PAYHIP_OR_GUMROAD_LINK_1">Buy eBook →</a></div></article>
+<article data-cat="growth"><div class="cover cream"><small>MOVARA READS</small><strong>THE 30-DAY PERSONAL RESET</strong><span>Discipline • Confidence • Productivity</span></div><h3>The 30-Day Personal Reset</h3><p>A practical guide to building better habits.</p><div class="buy"><b>$7.99</b><a href="ADD_YOUR_PAYHIP_OR_GUMROAD_LINK_2">Buy eBook →</a></div></article>
+<article data-cat="relationships"><div class="cover wine"><small>MOVARA READS</small><strong>BUILDING RELATIONSHIPS THAT LAST</strong><span>Communication • Trust • Understanding</span></div><h3>Building Relationships That Last</h3><p>Explore communication, trust and healthy connection.</p><div class="buy"><b>$9.99</b><a href="ADD_YOUR_PAYHIP_OR_GUMROAD_LINK_3">Buy eBook →</a></div></article>
+<article data-cat="technology"><div class="cover blue"><small>MOVARA READS</small><strong>AI SKILLS FOR EVERYDAY SUCCESS</strong><span>A beginner's practical guide</span></div><h3>AI Skills for Everyday Success</h3><p>Learn practical ways to use AI in work and business.</p><div class="buy"><b>$12.99</b><a href="ADD_YOUR_PAYHIP_OR_GUMROAD_LINK_4">Buy eBook →</a></div></article>
+<article data-cat="africa"><div class="cover orange"><small>MOVARA READS</small><strong>THE AFRICAN DIGITAL OPPORTUNITY</strong><span>Digital skills and online business</span></div><h3>The African Digital Opportunity</h3><p>Explore digital opportunities and online business models.</p><div class="buy"><b>$12.99</b><a href="ADD_YOUR_PAYHIP_OR_GUMROAD_LINK_5">Buy eBook →</a></div></article>
+</div><p class="disclaimer">Book titles and prices are launch concepts. Replace these listings with finished books you own before accepting orders.</p></section>
+<section class="free" id="free"><div><p class="eyebrow">JOIN OUR READER COMMUNITY</p><h2>Get a little knowledge in your inbox.</h2><p>Receive reading tips, new-release news and occasional free resources.</p></div><form onsubmit="event.preventDefault();alert('Connect a free email signup service before collecting subscribers.');"><input type="email" placeholder="Your email address" required><button class="btn gold">Subscribe</button></form></section>
+<section class="about" id="about"><p class="eyebrow">OUR STORY</p><h2>Knowledge has no borders.</h2><p>MOVARA READS is an independent digital reading brand being built in Ghana for readers everywhere. We aim to make practical, carefully reviewed knowledge accessible across business, personal growth, relationships, technology and African opportunities.</p></section>
+<section class="contact" id="contact"><h2>Connect with MOVARA READS</h2><p>For reader support, author enquiries and partnerships, add your business email here.</p><a href="mailto:YOUR-EMAIL@example.com">YOUR-EMAIL@example.com</a></section>
+</main>
+<footer><a class="brand inverse" href="#"><img src="assets/movara-mark.svg" alt=""><span><b>MOVARA</b><small>R E A D S</small></span></a><p>Read. Learn. Grow.</p><div><a href="#books">Books</a><a href="#about">About</a><a href="#contact">Contact</a><a href="#">Privacy</a><a href="#">Terms</a><a href="#">Refunds</a></div><small>© <span id="year"></span> MOVARA READS</small></footer>
+<script src="script.js"></script>
+</body></html>
